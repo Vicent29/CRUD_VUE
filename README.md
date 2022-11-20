@@ -21,11 +21,12 @@ http://localhost:8080/
 ### setup()/reactive():
 * Options API: https://lenguajejs.com/vuejs/componentes/options-api/
 * Composition API, setup(): https://lenguajejs.com/vuejs/componentes/composition-api/
-* ref(), reactive(): https://lenguajejs.com/vuejs/componentes/reactividad-api/
-* https://pablomagaz.com/blog/nueva-composition-api-vue-3
+* ref(), reactive():
+    - https://lenguajejs.com/vuejs/componentes/reactividad-api/
+    - https://pablomagaz.com/blog/nueva-composition-api-vue-3
 
 ### Using key with v-for in Vue3:
-* <TodoItem v-for="todoitem in state.todolist" :key="todoitem.id" :todoitem="todoitem" />
+* < TodoItem v-for="todoitem in state.todolist" :key="todoitem.id" :todoitem="todoitem" />
 * ProductElement v-for="p in products" :key="p.slug" :data="p"></ProductElement>
     - https://lenguajejs.com/vuejs/directivas-vue/v-for/
 
