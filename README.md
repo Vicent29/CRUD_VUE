@@ -1,22 +1,39 @@
-# todolistapp_vue3
-* vuex 4.x + vue-router 4.x + vue 3.x 을 이용한 TodoList App 예제 샘플
+ # CRUD_VUE Restaurant
+* This project is about a small crud of restaurant tables, in which you will learn the main structure of VUE and its everything you can achieve with its REACTIVITY
 
-### 실행 방법
+### Project installation
 ~~~
-cd todolistapp_vue3
-yarn install
-yarn serve --open
+git clone https://github.com/Vicent29/CRUD_VUE.git CRUD_VUE
+cd CRUD_VUE
+npm install
+npm run serve
+http://localhost:8080/
 ~~~
 
-### vue 3.0 (beta)
-* https://composition-api.vuejs.org/
-* https://github.com/vuejs/vue-cli-plugin-vue-next
+### Vuex4:
+* https://medium.com/@khriztianmoreno/vuex-administrador-de-estados-para-vue-15140c3d5618
+* https://blog.logrocket.com/using-vuex-4-with-vue-3/
 
-### Vuex 4.0 (beta)
-* https://github.com/vuejs/vuex/tree/4.0
+### vue-router4:
+* https://router.vuejs.org/guide/#javascript
+* https://vueschool.io/articles/vuejs-tutorials/how-to-use-vue-router-a-complete-tutorial/
 
-### vue-router 4.0 (alpha)
-* https://github.com/vuejs/vue-router-next
+### setup()/reactive():
+* Options API: https://lenguajejs.com/vuejs/componentes/options-api/
+* Composition API, setup(): https://lenguajejs.com/vuejs/componentes/composition-api/
+* ref(), reactive(): https://lenguajejs.com/vuejs/componentes/reactividad-api/
+* https://pablomagaz.com/blog/nueva-composition-api-vue-3
 
-### 참조 
-* https://github.com/chenxeed/vue3-boilerplate
+### Using key with v-for in Vue3:
+* <TodoItem v-for="todoitem in state.todolist" :key="todoitem.id" :todoitem="todoitem" />
+* ProductElement v-for="p in products" :key="p.slug" :data="p"></ProductElement>
+    - https://lenguajejs.com/vuejs/directivas-vue/v-for/
+
+### Vue get input value: 
+* https://javascript.plainenglish.io/vue-get-input-value-206d5adc832c?s=08
+
+### emit: 
+* https://binodmahto.medium.com/props-vs-emit-in-vue-js-d9557f566ad3
+
+### How To Pass Data Between Components In Vue.js:
+* https://www.smashingmagazine.com/2020/01/data-components-vue-js/
